@@ -1,0 +1,68 @@
+Input
+Dữ liệu ban đầu
+branch_names = [
+    "Highlands Nhà Thờ",
+    "Highlands Bà Triệu",
+    "Highlands Nguyễn Du",
+    "Highlands Landmark 81",
+    "Highlands Trần Hưng Đạo"
+]
+
+daily_revenues = [
+    15500000,
+    28000000,
+    9200000,
+    45000000,
+    11000000
+]
+
+target_achieved = [
+    True,
+    True,
+    False,
+    True,
+    False
+]
+Dữ liệu người dùng nhập
+choice = input()
+
+Lựa chọn menu:
+
+1
+2
+3
+4
+Output
+Chức năng 1
+
+Hiển thị bảng doanh thu và tổng doanh thu.
+
+Ví dụ:
+
+Highlands Nhà Thờ       | 15500000 | Đạt
+Highlands Bà Triệu      | 28000000 | Đạt
+Highlands Nguyễn Du     | 9200000  | Không Đạt
+
+=> TỔNG DOANH THU: 108700000 VNĐ
+Chức năng 2
+
+Hiển thị chi nhánh doanh thu cao nhất và thấp nhất.
+
+Ví dụ:
+
+Chi nhánh doanh thu cao nhất:
+Highlands Landmark 81 - 45000000 VNĐ
+
+Chi nhánh doanh thu thấp nhất:
+Highlands Nguyễn Du - 9200000 VNĐ
+Chức năng 3
+
+Hiển thị danh sách cơ sở không đạt chỉ tiêu.
+
+Ví dụ:
+
+['Highlands Nguyễn Du', 'Highlands Trần Hưng Đạo']
+Chức năng 4
+Hệ thống ghi nhận dữ liệu hoàn tất. Tạm biệt!
+
+

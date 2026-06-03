@@ -1,0 +1,35 @@
+Khởi tạo dữ liệu
+
+Lặp vô hạn
+
+    Hiển thị menu
+
+    Nhập lựa chọn
+
+    Nếu nhập sai
+        Thông báo lỗi
+        Quay lại menu
+
+    Nếu chọn 1
+        In báo cáo doanh thu
+        Tính tổng doanh thu bằng sum()
+
+    Nếu chọn 2
+        Tìm doanh thu lớn nhất bằng max()
+        Tìm doanh thu nhỏ nhất bằng min()
+        Tìm index tương ứng
+        In kết quả
+
+    Nếu chọn 3
+        Tạo failed_branches = []
+
+        Duyệt danh sách
+
+            Nếu target_achieved[i] là False
+                append(branch_names[i])
+
+        In failed_branches
+
+    Nếu chọn 4
+        In lời chào
+        Kết thúc chương trình
